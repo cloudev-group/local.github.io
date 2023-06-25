@@ -1,0 +1,49 @@
+baseURL = 'https://local.cloudev.group/'
+languageCode = 'ja'
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+title = 'Cloud Native Local Developers Group'
+theme = "terminal"
+paginate = 5
+
+[params]
+  contenttypeName = "posts"
+  themeColor = "blue"
+  showMenuItems = 2
+  showLanguageSlector = true
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  showLastUpdated = true
+
+[languages]
+  [languages.ja]
+    languageName = "Japanese"
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.ja.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.ja.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
