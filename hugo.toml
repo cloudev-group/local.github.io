@@ -19,8 +19,36 @@ paginate = 5
 [languages]
   [languages.ja]
     languageName = "Japanese"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Cloud Native Developers Group"
+    subtitle = ""
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "表示を増やす"
+    readMore = "続きを読む"
+    readOtherPosts = "他の記事を読む"
+    newerPosts = "新しい記事"
+    olderPosts = "前の記事"
+    missingContentMessage = "ページがありません"
+    missingBackButtonLabel = "ホームに戻る"
+    minuteReadingTime = "min read"
+    words = "words"
+    contentDir = "content/ja"
+
+    [languages.ja.params.logo]
+      logoText = "Cloud Native Local Developers Group"
+      logoHomeLink = "/"
+
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+
+  [languages.en]
+    languageName = "English"
+    title = "Cloud Native Local Developers Group"
+    subtitle = ""
     owner = ""
     keywords = ""
     copyright = ""
@@ -33,17 +61,14 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
     minuteReadingTime = "min read"
     words = "words"
+    contentDir = "content/en"
 
-    [languages.ja.params.logo]
-      logoText = "Terminal"
+    [languages.en.params.logo]
+      logoText = "Cloud Native Local Developers Group"
       logoHomeLink = "/"
 
-    [languages.ja.menu]
-      [[languages.ja.menu.main]]
+    [languages.en.menu]
+      [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.ja.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
