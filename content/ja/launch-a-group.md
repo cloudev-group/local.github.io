@@ -1,7 +1,6 @@
 ---
 title: "Launch a Group"
 date: 2023-06-25T21:07:44+09:00
-draft: true
 ---
 
 ## Cloud Native Local Developers Group 発足
