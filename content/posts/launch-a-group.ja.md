@@ -1,9 +1,18 @@
----
-title: "Launch a Group"
-date: 2023-06-25T21:07:44+09:00
----
++++
+title = "Cloud Native Local Developers Group 発足"
+date = "2023-06-25T21:07:44+09:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+#tags = ["", ""]
+#keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
+hideComments = false
+color = "" #color from the theme settings
++++
 
-## Cloud Native Local Developers Group 発足
 
 当会は、クラウド上にシステムやアプリケーションを開発する際に「うわっ…私のクラウド利用料、高すぎ…？」という状況に陥いって、開発が思う存分できなくなるのを少しでも回避しようと、「クラウド上のシステム開発を少しでもローカルでやってみよう」ということに関して、みんなでワイワイやってみようという会です。
 

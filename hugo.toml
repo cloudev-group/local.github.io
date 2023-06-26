@@ -1,5 +1,4 @@
 baseURL = 'https://local.cloudev.group/'
-languageCode = 'ja'
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
 title = 'Cloud Native Local Developers Group'
@@ -19,8 +18,19 @@ paginate = 5
 [languages]
   [languages.ja]
     title = "Cloud Native Local Developers Group"
+    languageCode = "ja"
+    languageName = "Japanese"
     weight = 1
+    [languages.ja.params.logo]
+      logoText = "Cloud Native Local Developers Group"
+      logoHomeLink = "/"
 
   [languages.en]
     title = "Cloud Native Local Developers Group"
+    languageCode = "en"
+    languageName = "English"
     weight = 2
+    [languages.en.params.logo]
+      logoText = "Cloud Native Local Developers Group"
+      logoHomeLink = "/"
+
