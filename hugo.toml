@@ -18,57 +18,9 @@ paginate = 5
 
 [languages]
   [languages.ja]
-    languageName = "Japanese"
-    title = "Cloud Native Developers Group"
-    subtitle = ""
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "表示を増やす"
-    readMore = "続きを読む"
-    readOtherPosts = "他の記事を読む"
-    newerPosts = "新しい記事"
-    olderPosts = "前の記事"
-    missingContentMessage = "ページがありません"
-    missingBackButtonLabel = "ホームに戻る"
-    minuteReadingTime = "min read"
-    words = "words"
-    contentDir = "content/ja"
-
-    [languages.ja.params.logo]
-      logoText = "Cloud Native Local Developers Group"
-      logoHomeLink = "/"
-
-    [languages.ja.menu]
-      [[languages.ja.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+    title = "Cloud Native Local Developers Group"
+    weight = 1
 
   [languages.en]
-    languageName = "English"
     title = "Cloud Native Local Developers Group"
-    subtitle = ""
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    minuteReadingTime = "min read"
-    words = "words"
-    contentDir = "content/en"
-
-    [languages.en.params.logo]
-      logoText = "Cloud Native Local Developers Group"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+    weight = 2
